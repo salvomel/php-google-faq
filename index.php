@@ -76,7 +76,18 @@
     </header>
     
     <main>
+        <div class="container">
 
+            <?php foreach($faq as $single_faq) { ?>
+
+                <div class="single-faq">
+                    <h3><?php echo $single_faq['question']; ?></h3>
+                    <?php echo $single_faq['answers']; ?>
+                </div>
+
+            <?php } ?>
+
+        </div>
     </main>
 </body>
 </html>
