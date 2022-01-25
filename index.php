@@ -89,5 +89,25 @@
 
         </div>
     </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <ul>
+                    <li><a href="#">Google</a></li>
+                    <li><a href="#">Tutto su Google</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Termini</a></li>
+                </ul>
+                <div class="language">
+                    <i class="fas fa-comment-alt"></i>
+                    <select name="lang" id="lang">
+                        <option value="it">Italiano</option>
+                        <option value="en">English</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
